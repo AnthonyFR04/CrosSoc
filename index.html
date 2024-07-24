@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <hr class="big">
+            <hr class="small">
+            <h1>UoY Cross Soc</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Socials</a></li>
+                <li><a href="puzzle.html">Weekly Crossword</a></li>
+                <li><a href="#contact">Membership</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h2>Welcome to the Crossword Society</h2>
+                <p>Join us in solving the most intriguing crosswords and other newspaper puzzles.</p>
+                <button id="generate-puzzle">Generate Puzzle</button>
+                <div id="puzzle-container"></div>
+            </section>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>The Crossword Society is dedicated to the love of word puzzles and games. We gather enthusiasts who enjoy the challenge and thrill of solving crosswords.</p>
+            </section>
+            <section id="puzzles">
+                <h2>Puzzles</h2>
+                <p>Explore our collection of crosswords and other puzzles. New puzzles are added regularly.</p>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Have questions or suggestions? Reach out to us through our contact form below.</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Crossword Society. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
