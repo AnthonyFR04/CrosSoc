@@ -47,7 +47,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #F8D311;
     margin: 0;
     border-top: 3px solid black;
