@@ -128,3 +128,8 @@ hr.big {
 hr.small {
     border-top: 4px solid black;
 }
+
+#priceAndDate {
+    display: flex;
+    justify-content: space-between;
+}
